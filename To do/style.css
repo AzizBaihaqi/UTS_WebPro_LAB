@@ -1,0 +1,190 @@
+.navbar {
+  background-color: #ffc107;
+  color: #333;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding-top: 5px;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+  flex: 1;
+}
+
+.logout-btn {
+  background-color: #333;
+  color: #ffc107;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #ffa000;
+  color: #333;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  border: 2px solid #333;
+  margin: auto;
+  background-color: #fff;
+}
+
+th {
+  background-color: #ffc107;
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  max-width: 400px;
+}
+
+select {
+  margin-right: 10px;
+}
+
+a {
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 2px solid #171715;
+  color: #333;
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  background-color: #ffc107;
+  color: #333;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffa000;
+}
+
+body {
+  background-image: url("note.jpg");
+  background-blend-mode: multiply;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.adder {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.adder form {
+  max-width: 400px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.adder label {
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+.adder input[type="text"],
+.adder input[type="date"],
+.adder textarea {
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 2px solid #171715;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.adder input[type="submit"] {
+  background-color: #ffc107;
+  color: #333;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.adder input[type="submit"]:hover {
+  background-color: #ffa000;
+}
+
+#taskForm {
+  display: none;
+}
+
+#showFormButton {
+  background-color: #ffc107;
+  color: #333;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+#showFormButton:hover {
+  background-color: #ffa000;
+}
+
+ul {
+  padding-left: 0px;
+}

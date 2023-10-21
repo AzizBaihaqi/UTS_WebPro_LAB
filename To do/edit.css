@@ -1,0 +1,97 @@
+body {
+    background-image: url('sticky.jpg'); 
+    background-blend-mode: multiply;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f5e31f;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: fixed;
+}
+
+form {
+    margin-left: 20px;
+    margin-right: 40px;
+    max-width: 400px;
+}
+
+input[type="submit"] {
+    background-color: #FFC107;
+    color: #333;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #FFA000;
+}
+
+
+@media (max-width: 768px) {
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .form-group label {
+        font-size: 16px; 
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="date"],
+    .form-group textarea {
+        font-size: 16px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .form-group {
+        margin-bottom: 5px;
+    }
+
+    .form-group label {
+        font-size: 14px; 
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="date"],
+    .form-group textarea {
+        font-size: 14px; 
+    }
+}
