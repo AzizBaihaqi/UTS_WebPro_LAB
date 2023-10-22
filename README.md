@@ -1,7 +1,7 @@
 # UTS_WebPro_LAB
 
 Muhammad Aziz Baihaqi (00000075248)
-
+Aurelius Brandon Alexander Abuthan (00000075101)
 Kenndy Susio (00000075031)
 
 This Code is a simple Todo-list that has an user login/registration that are connected to database 
